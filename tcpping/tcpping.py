@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+import socket
+
 def tcpping(host, port, timeout = 5):
     """ Does a TCP 'ping'
         Simply attempts a socket connection on the specified port
